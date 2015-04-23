@@ -1,3 +1,24 @@
+## interactive_marker_twist_server (jade) - 1.0.0-0
+
+The packages in the `interactive_marker_twist_server` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade interactive_marker_twist_server --new-track` on `Thu, 23 Apr 2015 18:10:09 -0000`
+
+The `interactive_marker_twist_server` package was released.
+
+Version of package(s) in repository `interactive_marker_twist_server`:
+- upstream repository: https://github.com/ros-visualization/interactive_marker_twist_server
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## interactive_marker_twist_server (indigo) - 1.0.0-0
 
 User `mikepurvis@Mikes-MacBook-Pro-3.local` released the packages in the `interactive_marker_twist_server` repository into the `indigo` distro by running `/usr/local/bin/bloom-release --track indigo interactive_marker_twist_server --new-track -r indigo` on `Mon, 31 Mar 2014 16:11:54 -0000`
