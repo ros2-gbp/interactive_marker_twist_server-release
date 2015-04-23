@@ -1,0 +1,12 @@
+Source: ros-jade-interactive-marker-twist-server
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-interactive-markers, ros-jade-roscpp, ros-jade-roslaunch, ros-jade-roslint, ros-jade-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-interactive-marker-twist-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-interactive-markers, ros-jade-roscpp, ros-jade-visualization-msgs
+Description: Interactive control for generic Twist-based robots using interactive markers
