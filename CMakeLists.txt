@@ -5,8 +5,6 @@ project(interactive_marker_twist_server)
 find_package(catkin REQUIRED COMPONENTS
   interactive_markers
   roscpp
-  roslaunch
-  roslint
   visualization_msgs)
 
 catkin_package()
@@ -19,11 +17,13 @@ set_target_properties(${PROJECT_NAME}
   PROPERTIES OUTPUT_NAME marker_server PREFIX "")
 
 install(TARGETS ${PROJECT_NAME} DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+install(DIRECTORY launch config DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
 if(CATKIN_ENABLE_TESTING)
-  roslaunch_add_file_check(launch/interactive_markers.launch
-    DEPENDENCIES marker_server)
+  find_package(roslaunch REQUIRED)
+  roslaunch_add_file_check(launch/interactive_markers.launch)
+
+  find_package(roslint REQUIRED)
   roslint_cpp()
   roslint_add_test()
 endif()
