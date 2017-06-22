@@ -1,3 +1,26 @@
+## interactive_marker_twist_server (kinetic) - 1.2.0-0
+
+The packages in the `interactive_marker_twist_server` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic interactive_marker_twist_server` on `Thu, 22 Jun 2017 20:24:50 -0000`
+
+The `interactive_marker_twist_server` package was released.
+
+Version of package(s) in repository `interactive_marker_twist_server`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_marker_twist_server.git
+- release repository: https://github.com/ros-gbp/interactive_marker_twist_server-release.git
+- rosdistro version: `1.1.0-0`
+- old version: `1.1.0-0`
+- new version: `1.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## interactive_marker_twist_server (kinetic) - 1.1.0-0
 
 The packages in the `interactive_marker_twist_server` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic interactive_marker_twist_server` on `Tue, 20 Dec 2016 18:02:30 -0000`
