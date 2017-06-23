@@ -1,0 +1,12 @@
+Source: ros-lunar-interactive-marker-twist-server
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-interactive-markers, ros-lunar-roscpp, ros-lunar-roslaunch, ros-lunar-roslint, ros-lunar-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-interactive-marker-twist-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-interactive-markers, ros-lunar-roscpp, ros-lunar-visualization-msgs
+Description: Interactive control for generic Twist-based robots using interactive markers
