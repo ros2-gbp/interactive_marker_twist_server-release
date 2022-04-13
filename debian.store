@@ -1,1 +1,1 @@
-{"base": "fca825b", "parent": "debian/foxy/interactive_marker_twist_server", "previous": "36363cb", "trim": "", "trimbase": ""}
+{"trim": "", "base": "af3a7b4", "trimbase": "", "parent": "debian/foxy/interactive_marker_twist_server", "previous": "1fb5ce6"}
