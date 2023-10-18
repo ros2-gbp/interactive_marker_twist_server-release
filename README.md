@@ -1,3 +1,26 @@
+## interactive_marker_twist_server (rolling) - 2.1.0-1
+
+The packages in the `interactive_marker_twist_server` repository were released into the `rolling` distro by running `/usr/bin/bloom-release interactive_marker_twist_server -r rolling -t rolling --new-track` on `Wed, 18 Oct 2023 19:18:24 -0000`
+
+The `interactive_marker_twist_server` package was released.
+
+Version of package(s) in repository `interactive_marker_twist_server`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_marker_twist_server.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## interactive_marker_twist_server (humble) - 2.1.0-2
 
 The packages in the `interactive_marker_twist_server` repository were released into the `humble` distro by running `/usr/bin/bloom-release interactive_marker_twist_server -r humble -t humble` on `Mon, 06 Mar 2023 14:11:45 -0000`
