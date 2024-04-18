@@ -210,8 +210,7 @@ tracks:
     ros_distro: jazzy
     vcs_type: git
     vcs_uri: https://github.com/ros-visualization/interactive_marker_twist_server.git
-    version: 2.1.0
-    version_saved: :{auto}
+    version: :{auto}
   kinetic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
