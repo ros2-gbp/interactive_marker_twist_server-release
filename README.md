@@ -1,3 +1,26 @@
+## interactive_marker_twist_server (jazzy) - 2.1.1-1
+
+The packages in the `interactive_marker_twist_server` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release interactive_marker_twist_server -r jazzy -t jazzy` on `Tue, 19 Nov 2024 23:01:25 -0000`
+
+The `interactive_marker_twist_server` package was released.
+
+Version of package(s) in repository `interactive_marker_twist_server`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_marker_twist_server.git
+- release repository: https://github.com/ros2-gbp/interactive_marker_twist_server-release.git
+- rosdistro version: `2.1.0-3`
+- old version: `2.1.0-3`
+- new version: `2.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## interactive_marker_twist_server (iron) - 2.1.0-1
 
 The packages in the `interactive_marker_twist_server` repository were released into the `iron` distro by running `/usr/bin/bloom-release interactive_marker_twist_server -r iron -t iron --new-track` on `Wed, 18 Oct 2023 20:11:33 -0000`
