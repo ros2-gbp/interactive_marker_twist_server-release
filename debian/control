@@ -1,0 +1,12 @@
+Source: ros-kilted-interactive-marker-twist-server
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-interactive-markers, ros-kilted-rclcpp, ros-kilted-tf2, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-interactive-marker-twist-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry-msgs, ros-kilted-interactive-markers, ros-kilted-rclcpp, ros-kilted-tf2, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: Interactive control for generic Twist-based robots using interactive markers
